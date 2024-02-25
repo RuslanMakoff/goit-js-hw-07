@@ -4,8 +4,7 @@
 
 body {
   margin: 16px;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
-    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: "Montserrat", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #fafafa;
@@ -13,17 +12,169 @@ body {
   line-height: 1.5;
 }
 
-.gallery {
-  display: flex;
-  list-style-type: none;
+button {
+  cursor: pointer;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
   padding: 0;
 }
 
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style-type: none;
+}
+a{
+  text-decoration: none;
+  color: #212121;
+}
+p{
+  padding-bottom: 16px;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+input{
+  font-family: "Montserrat", sans-serif;
+border: 1px solid #808080;
+border-radius: 4px;
+width: 360px;
+height: 40px;
+}
+
+input:hover{
+  border: 1px solid #000;
+border-radius: 4px;
+width: 360px;
+height: 40px;
+}
+
+button{
+font-family: "Montserrat", sans-serif;
+font-weight: 500;
+font-size: 16px;
+line-height: 150%;
+letter-spacing: 0.04em;
+border-radius: 8px;
+border: #4e75ff;
+padding: 8px 16px;
+margin: 0 auto;
+margin-left: 0;
+background: #4e75ff;
+color: #ffffff;
+}
+ button:hover{
+  background: #6c8cff;
+ }
+
+ [data-destroy] {
+  background: #ff4e4e;
+}
+
+[data-destroy]:hover{
+  background: #ff7070;
+}
+
+#controls{
+  display: flex;
+  gap: 16px;
+border-radius: 8px;
+padding: 32px;
+width: 486px;
+background: #f6f6fe;
+}
+
+#boxes{
+  display: flex;
+  gap:16px;
+  margin-top: 20px;
+border-radius: 8px;
+padding: 32px;
+width: 486px;
+height: auto;
+background: #f6f6fe;
+}
+
+/* ===============================TASK1 */
+.list-name{
+ padding: 16px;
+font-weight: 600;
+font-size: 24px;
+line-height: 133%;
+letter-spacing: 0.04em;
+color: #2e2f42;
+}
+
+.item{
+display: flex;
+flex-direction: column;
+list-style-type: none;
+margin: 24px;
+width: 392px;
+background: #f6f6fe;
+}
+
+.text-list{
+
+margin-bottom: 8px;
+padding: 6px 16px 6px 16px;
+border: 1px solid #808080;
+border-radius: 4px;
+width: 360px;
+height: 40px;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+letter-spacing: 0.04em;
+color: #2e2f42;
+}
+
+.list{
+  padding: 16px;
+  width: 100%;
+} 
+/* ===============================TASK1 */
+
+/* ========================TASK2 */
+.gallery {
+  width: 1128px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style-type: none;
+  
+}
+
 .gallery-item {
-  margin-right: 18px;
+  margin-right: 24px;
+  margin-bottom: 48px;
 }
 
 .gallery-item img {
   max-width: 300px;
   height: 200px;
 }
+
+/* ========================TASK2 */
+
+/* ========================TASK4 */
+.login-form{
+  display: flex;
+  flex-direction: column;
+  gap:8px;
+  width: 360px;
+}
+/* ========================TASK4 */
+
