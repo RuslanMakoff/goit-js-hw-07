@@ -79,33 +79,8 @@ color: #ffffff;
   background: #6c8cff;
  }
 
- [data-destroy] {
-  background: #ff4e4e;
-}
+ 
 
-[data-destroy]:hover{
-  background: #ff7070;
-}
-
-#controls{
-  display: flex;
-  gap: 16px;
-border-radius: 8px;
-padding: 32px;
-width: 486px;
-background: #f6f6fe;
-}
-
-#boxes{
-  display: flex;
-  gap:16px;
-  margin-top: 20px;
-border-radius: 8px;
-padding: 32px;
-width: 486px;
-height: auto;
-background: #f6f6fe;
-}
 
 /* ===============================TASK1 */
 .list-name{
@@ -177,4 +152,36 @@ color: #2e2f42;
   width: 360px;
 }
 /* ========================TASK4 */
+
+/* ========================TASK6 */
+#controls{
+  display: flex;
+  gap: 16px;
+border-radius: 8px;
+padding: 32px;
+width: 486px;
+background: #f6f6fe;
+}
+
+#boxes{
+  display: flex;
+  gap:16px;
+  margin-top: 20px;
+border-radius: 8px;
+padding: 32px;
+width: 486px;
+height: auto;
+background: #f6f6fe;
+}
+
+[data-destroy] {
+  background: #ff4e4e;
+}
+
+[data-destroy]:hover{
+  background: #ff7070;
+}
+
+/* ========================TASK6 */
+
 
