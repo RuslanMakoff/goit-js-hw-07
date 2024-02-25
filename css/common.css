@@ -48,32 +48,32 @@ img {
 
 input{
   font-family: "Montserrat", sans-serif;
-border: 1px solid #808080;
-border-radius: 4px;
-width: 360px;
-height: 40px;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  width: 360px;
+  height: 40px;
 }
 
 input:hover{
   border: 1px solid #000;
-border-radius: 4px;
-width: 360px;
-height: 40px;
+  border-radius: 4px;
+  width: 360px;
+  height: 40px;
 }
 
 button{
-font-family: "Montserrat", sans-serif;
-font-weight: 500;
-font-size: 16px;
-line-height: 150%;
-letter-spacing: 0.04em;
-border-radius: 8px;
-border: #4e75ff;
-padding: 8px 16px;
-margin: 0 auto;
-margin-left: 0;
-background: #4e75ff;
-color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  border-radius: 8px;
+  border: #4e75ff;
+  padding: 8px 16px;
+  margin: 0 auto;
+  margin-left: 0;
+  background: #4e75ff;
+  color: #ffffff;
 }
  button:hover{
   background: #6c8cff;
@@ -84,36 +84,35 @@ color: #ffffff;
 
 /* ===============================TASK1 */
 .list-name{
- padding: 16px;
-font-weight: 600;
-font-size: 24px;
-line-height: 133%;
-letter-spacing: 0.04em;
-color: #2e2f42;
+  padding: 16px;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 133%;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
 }
 
 .item{
-display: flex;
-flex-direction: column;
-list-style-type: none;
-margin: 24px;
-width: 392px;
-background: #f6f6fe;
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  margin: 24px;
+  width: 392px;
+  background: #f6f6fe;
 }
 
 .text-list{
-
-margin-bottom: 8px;
-padding: 6px 16px 6px 16px;
-border: 1px solid #808080;
-border-radius: 4px;
-width: 360px;
-height: 40px;
-font-weight: 400;
-font-size: 16px;
-line-height: 150%;
-letter-spacing: 0.04em;
-color: #2e2f42;
+  margin-bottom: 8px;
+  padding: 6px 16px 6px 16px;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  width: 360px;
+  height: 40px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
 }
 
 .list{
@@ -157,21 +156,22 @@ color: #2e2f42;
 #controls{
   display: flex;
   gap: 16px;
-border-radius: 8px;
-padding: 32px;
-width: 486px;
-background: #f6f6fe;
+  border-radius: 8px;
+  padding: 32px;
+  width: 486px;
+  background: #f6f6fe;
 }
 
 #boxes{
   display: flex;
+  flex-wrap: wrap;
   gap:16px;
   margin-top: 20px;
-border-radius: 8px;
-padding: 32px;
-width: 486px;
-height: auto;
-background: #f6f6fe;
+  border-radius: 8px;
+  padding: 32px;
+  width: 486px;
+  height: auto;
+  background: #f6f6fe;
 }
 
 [data-destroy] {
